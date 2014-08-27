@@ -1,0 +1,18 @@
+.nav li {
+	display:inline;
+}
+
+.nav .container{
+	margin-top:70px;
+	width:100%;
+}
+
+.jumbotron {
+	background-image:url("");
+	height:550px;
+}
+
+.row{
+	
+	height:800px;
+}

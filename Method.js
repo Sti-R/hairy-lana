@@ -30,4 +30,3 @@ var person = {
 function fullName(){
 	console.log (this.firstName + this.lastName)
 }
-

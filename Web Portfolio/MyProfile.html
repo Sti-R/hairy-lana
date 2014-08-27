@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<link rel="stylesheet" href="myProfile.css" type"text/css">
+		<link href='https://fonts.googleapis.com/css?family=Vollkorn' rel='stylesheet' type='text/css'>
+		<script src="jquery-2.1.1.js" type="text/javascript" charset="utf-8"></script>
+		<title>Jason's Web Portfolio</title>
+
+
+	</head>
+	
+	<body>
+
+		<header>
+
+		<div class="nav">
+			<ul>
+				<li><a href="#1">Photography<a/></li>
+				<li><a href="#2">Resume</a></li>
+				<li><a href="#3">Blog</a></li>
+				<li><a href="#5">Facebook</a></li>
+				<li><a href="#6">Twitter</a></li>
+				<li><a href="#7">Linkedin</a></li>
+			</ul>
+		</div>
+
+		<div class="intro">
+			<h1>Jason Sio</h1>
+			<h2>Welcome to my portfolio! Don't be shy and please say hello!</h2>
+			<input type="email" placeholder="Your email">
+			<input type="submit">
+		</div>
+
+			<div class="content1">
+				<div class="box1">
+					<p>About me<br /> <small>My story begins on the island of Oahu. In 2009, I graduated from University of Hawaii with a BA in East Asian Language Literature focusing on Japan. Back then, one of my dreams was to learn the Japanese language and expose myself to the full glory of Japanese culture. I was very fond of Japan and wanted first-hand experience working and living abroad. I felt that if I could speak Japanese, I could learn more about the culture and perhaps even learn about the economic conditions. I was always fascinated with the business, language, food and culture aspect of things. Shortly after graduating, I got offered a job teaching English in Japan.</small></p>
+				</div>
+			</div>
+
+
+			<div class="robot">
+					<div class="beep"></div>
+					<div class="brain"></div>
+					<div class="torso"></div>
+					<div class="foot"></div>
+			</div>
+
+
+
+
+		</header>
+
+		<script type="text/javascript">
+		$('.box1').on('click', function(){
+			$(this).toggleClass('show-description');
+		});
+
+		</script>
+	</body>
+
+
+</html>

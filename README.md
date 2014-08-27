@@ -1,4 +1,0 @@
-hairy-lana
-==========
-
-JavaScript
