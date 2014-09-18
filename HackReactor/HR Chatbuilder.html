@@ -34,8 +34,17 @@
        */
 
       Chat.guide.start();
-      Chat.guide(1);
-      
+      Chat.guide(2);
+
+      $(document).ready( function() {
+        Chat.fetch( function(x){
+          for (i=0; i< (x.length); i++);
+            Chat.display(x[i]);
+        })
+
+      });
+
+
 
       // Your JavaScript code will go right here!
     </script>
@@ -45,7 +54,8 @@
     <input class="draft" type="text"/> <button class="send" disabled>Send</button>
 
     <ul class="messages">
-      <!-- once you save this code to a local `.html` file, you can delete these 3 fake, hard-coded li elements -->
+      <li></li>
+      <li></li>
     </ul>
 
   </body>

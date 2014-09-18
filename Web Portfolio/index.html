@@ -2,28 +2,19 @@
 
 <html lang="en">
 	<head>
-		<link rel="stylesheet" href="myProfile.css" type"text/css">
+		<link rel="stylesheet" href="style.css" type"text/css">
 		<link href='https://fonts.googleapis.com/css?family=Vollkorn' rel='stylesheet' type='text/css'>
 		<script src="jquery-2.1.1.js" type="text/javascript" charset="utf-8"></script>
+		<script src="bootstrap.css"></script>
+		<link href="http://s3.amazonaws.com/codecademy-content/courses/ltp2/css/bootstrap.min.css" rel="stylesheet">
+		
 		<title>Jason's Web Portfolio</title>
-
-
 	</head>
 	
 	<body>
 
-		<header>
 
-		<div class="nav">
-			<ul>
-				<li><a href="#1">Photography<a/></li>
-				<li><a href="#2">Resume</a></li>
-				<li><a href="#3">Blog</a></li>
-				<li><a href="#5">Facebook</a></li>
-				<li><a href="#6">Twitter</a></li>
-				<li><a href="#7">Linkedin</a></li>
-			</ul>
-		</div>
+    <header>
 
 		<div class="intro">
 			<h1>Jason Sio</h1>
@@ -52,11 +43,20 @@
 		</header>
 
 		<script type="text/javascript">
-		$('.box1').on('click', function(){
+		
+		$('.box1').on('mouseenter', function(){
 			$(this).toggleClass('show-description');
 		});
+		
+		$('h1').on('mouseenter', function(){
+			$(this).addClass('active');
+		});
+		$('h1').on('mouseleave', function(){
+			$(this).removeClass('active')
+		})
 
 		</script>
+
 	</body>
 
 
